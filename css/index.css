@@ -30,17 +30,14 @@ p{
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
-    /* position: absolute; */
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
-    margin: auto;
-    /* height: 500px; */
+    margin:10px auto 5px auto;
     height: max-content;
     width: 400px;
     padding: 5px;
-    /* padding-bottom: 15px; */
 }
 
 .panel .titulo {
@@ -70,40 +67,24 @@ p{
 }
 
 .panel .textbox input::-webkit-input-placeholder {
-    color: var(--words);
-    text-align: center;
-}
-
-.panel .textbox input:-ms-input-placeholder {
-    color: var(--words);
-    text-align: center;
-}
-
-.panel .textbox input::-ms-input-placeholder {
-    color: var(--words);
-    text-align: center;
-}
-
-.panel .textbox input::placeholder {
-    color: var(--words);
-    text-align: center;
-}
-
-.panel .textbox input::-webkit-input-placeholder {
     color: #929292;
-}
-
-.panel .textbox input:-ms-input-placeholder {
+    text-align: center;
+  }
+  
+  .panel .textbox input:-ms-input-placeholder {
     color: #929292;
-}
-
-.panel .textbox input::-ms-input-placeholder {
+    text-align: center;
+  }
+  
+  .panel .textbox input::-ms-input-placeholder {
     color: #929292;
-}
-
-.panel .textbox input::placeholder {
+    text-align: center;
+  }
+  
+  .panel .textbox input::placeholder {
     color: #929292;
-}
+    text-align: center;
+  }
 
 .panel .panelbutton {
     display: -webkit-box;
