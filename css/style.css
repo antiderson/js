@@ -5,7 +5,9 @@ body, html {
 }
 
 .banner-img {
-  background-image: url("../../images/background.jpg");
+  /* background-image: url("../../images/background.jpg"); */
+  background-image: url("../images/background.jpg");
+
   background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
